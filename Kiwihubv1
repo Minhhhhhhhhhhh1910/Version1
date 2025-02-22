@@ -1,5 +1,5 @@
 
-shared.LoaderTitle = "";
+shared.LoaderTitle = "NEW UPDATE ON 30/2/2025";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -103,7 +103,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "KIWI HUB",
+    Text = "Username",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -312,9 +312,8 @@ v5:Destroy();
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/obfalchx/testfluent/refs/heads/main/FluentTrau"))();
 local v15 = v14:CreateWindow({
     Title = "KIWI HUB v1",
-    SubTitle = "tham gia discord|join discord https://discord.gg/baGVBKvVAs",
-    TabWidth = 160,
-    Theme = "Light",
+    SubTitle = "KIWI VN XIN CHÀO🇻🇳"tab width= 160,
+    Theme = "dark",
     Acrylic = false,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
@@ -2344,7 +2343,7 @@ function BTPZ(v209)
     task.wait();
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v209;
 end
-TweenSpeed = 350;
+TweenSpeed = 1000;
 function Tween(v211)
     local v212 = (v211.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude;
     local v213 = TweenSpeed;
@@ -2631,7 +2630,7 @@ v23.BorderSizePixel = 0;
 v23.Position = UDim2.new(0.120833337 - 0.1, 0, 0.0952890813 + 0.01, 0);
 v23.Size = UDim2.new(0, 50, 0, 50);
 v23.Draggable = true;
-v23.Image = "http://www.roblox.com/asset/?id= 113278597939502";
+v23.Image = " https://create.roblox.com/store/asset/113278597939502/Shin-hello";
 v24.Parent = v23;
 v24.CornerRadius = UDim.new(0, 12);
 v25.Parent = v23;
